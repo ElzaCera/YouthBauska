@@ -13,6 +13,14 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153066695-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-153066695-1');
+    </script>
 
 </head>
 
@@ -30,10 +38,10 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#feature">About US</a></li>
-          <li><a href="#faculity-member">For Students</a></li>
-          <li><a href="#pricing">Apply</a></li>
-          <li><a href="#footer">Contacts</a></li>
+          <li><a href="#feature">Par Mums</a></li>
+          <li><a href="#faculity-member">Studentiem</a></li>
+          <li><a href="#pricing">Pieteikties</a></li>
+          <li><a href="#member">Kontakti</a></li>
         </ul>
       </div>
     </div>
@@ -47,7 +55,7 @@
         <div class="row">
           <div class="banner-text text-center">
             <div class="text-border">
-              <h2 class="text-dec">‘… and then I realised an adventure is the way to learn’</h2>
+              <h2 class="text-dec">Starptautiskais apmaiņas programmu projekts Bauskas ģimnāzijai 2020./2021. </h2>
             </div>
             <a href="#feature" class="mouse-hover">
               <div class="mouse"></div>
@@ -63,15 +71,15 @@
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
-          <h2>About Us</h2>
+          <h2>Par Mums</h2>
           <hr class="bottom-line">
         </div>
         <div class="feature-info">
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Who are we</h4>
-                <p>We are RBS students also known as the Bauska Youth Development Program, who are developing a project to improve the education system and achieve a successful student evolvement.</p>
+                <h4>Kas mēs esam?</h4>
+                <p id="bx">Mēs esam RBS studenti, zināmi kā Bauska Youth Development Program aizsācēji, kuri veido starpvalstu sadraudzības projektu, lai uzlabotu izglītības sistēmu un sekmētu skolēnu izaugsmi Bauskas Valsts ģimnāzijā.</p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-info"></i>
@@ -81,8 +89,8 @@
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>What we do</h4>
-                <p>Our team is working and cooperationg with the Erasmus+ exchange program, as well as the Bauska Municipality Council and Bauska State Gymanisum to integrate exchange programs within Bauska Municipality.</p>
+                <h4>Ko mēs darām?</h4>
+                <p id="bx">Mūsu komanda sadarbojas ar Erasmus+ programmu, Bauskas novada domi un Bauskas Valsts ģimnāziju, lai integrētu internacionālas apmaiņas programmas dažādu skolu skolēnu vidū.</p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-universal-access"></i>
@@ -92,8 +100,8 @@
           <div class="fea">
             <div class="col-md-4">
               <div class="heading pull-right">
-                <h4>Our goal</h4>
-                <p>Outr goal is to gain opportunities for young, driven students to experience new opportunities of studying in different programs, gaining the independence of living abroad and meeting other international students from all over the world. </p>
+                <h4>Mūsu Mērķis</h4>
+                <p id="bx">Mūsu mērķis ietver jaunu iespēju un pieredzes veidošanu jauniem, ambicioziem skolēniem, piedaloties dažādās programmās, iegūstot patstāvību dzīvojot ārvalstīs un iepazīstot citus internacionālus skolēnus no visas pasaules. </p>
               </div>
               <div class="fea-img pull-left">
                 <i class="fa fa-trophy"></i>
@@ -115,9 +123,9 @@
         <div class="col-md-6">
           <div class="detail-info">
             <hgroup>
-              <h3 class="det-txt"> What is Erasmus?</h3>
+              <h3 class="det-txt">Kas ir Erasmus+?</h3>
             </hgroup>
-            <p class="det-p">The Erasmus+ Programme is a European exchange program offering elementary and higschool students a possibility of studying abroad for a short or long period of time – a minimum of 2 months or a maximum of 12 months, depending on the education system and established programs, that are provided at that time.</p>
+            <p class="det-p">Erasmus+ programma ir Eiropā ietveroša apmaiņas programma, kas piedāvā pamatskolas un vidusskolas skolēniem iespēju no 2 līdz 6 mēnešiem mācīties ārvalstīs, iegūstot jaunu pieredzi citu skolu mācību procesos. Apmaiņas programmas tiek realizētas pirmā mācību gada vai otrā pusgada sākumā. Brauciena laika posma ilgums ir atkarīgs no katras skolas piedāvātās izglītības sistēmas, mācību un metodikas procesa, kas tiek saskaņots apmaiņas laikā.</p>
           </div>
         </div>
       </div>
@@ -128,72 +136,101 @@
   <!--Faculity member-->
   <section id="faculity-member" class="section-padding">
     <div class="container">
-      <div class="row">
         <div class="header-section text-center">
-          <h2>Programs For Students</h2>
+          <h2>Programmas</h2>
           <hr class="bottom-line">
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="pm-staff-profile-container">
             <div class="pm-staff-profile-details text-center">
-              <p class="pm-staff-profile-name">Program 1 </p>
-              <p class="pm-staff-profile-bio">Erasmus + exchange program between Bauska State Gymanisum elementary, high school students and Martin Koch Gymanisum. Duration of the study exchange would be a minimum of 2 months  to 6 months, depending on the provided programs in both schools. </p>
+              <p class="pm-staff-profile-name">Martina Koha ģimnāzija (Hedemora, Zviedrija) </p>
+              <p class="pm-staff-profile-bio">Sadarbība starp Hedemoru (Zviedrija) un Bausku aizsākās jau 1990. gados, tomēr tikai 2003. gadā tika slēgts sadarbības līgums starp Bauskas pilsētas domi un Hedemoru. Šī sadarbība ir ne tikai sniegusi atbalstu Bauskas slimnīcai un Sarkanā Krusta organizācijai, bet ir arī sniegusi Bauskas Valsts ģimnāzijai piedalīties apmaiņas programmās ar Mārtiņa Koha ģimnāziju kopš 2014. gada. Šis projekts ir paredzēts, lai šo sadarbību nostiprinātu, izmantojot Erasmus + programmas, kas sniedz Bauskas Valsts ģimnāzijas skolēniem iespēju divus līdz sešus mēnešus apciemot Hedemoru un mācīties tās skolā. Turklāt Mārtina Koha ģimnāzijas skolēniem būs iespēja arī apmeklēt Bausku un piedalīties Bauskas Valsts ģimnāzijas mācību procesā.</p>
             </div>
-          </div>
+            <img id="bild" src="img/2.jpeg" alt="" class="img-thumbnail img-circle" width="50%" height="50%" />
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="pm-staff-profile-container">
             <div class="pm-staff-profile-details text-center">
-              <p class="pm-staff-profile-name">Program 2 </p>
-              <p class="pm-staff-profile-bio">Erasmus + exchange program between Bauska State Gymanisum elementary, high school students and Martin Koch Gymanisum. Duration of the study exchange would be a minimum of 2 months  to 6 months, depending on the provided programs in both schools.
-</p>
+              <p class="pm-staff-profile-name">Atzalyno ģimnāzija (Pakruojis, Lietuva) </p>
+              <p class="pm-staff-profile-bio">Jau vairākus gadus Pakruojis (Lietuva) ir viena no Bauskas sadarbības pilsētām, tādēļ, Atzalyno ģimnāzija ir pozitīvi vērsta pret sadarbību ar Bauskas Valsts ģimnāziju, lai ieviestu un attīstītu skolēnu savstarpējās apmaiņas programmas, īstenotu dažādas idejas un projektus saistībā ar kopīgo mācību procesu. Iecerētais projekts tiks veikts ciešā sadarbībā ar Erasmus+ programmām, kuras piedāvā jauniešiem pavadīt no divu līdz sešu mēnešu ilgu periodu kaimiņvalstīs, kur varēs piedalīties ne tikai mācību vielu apguvē, bet arī veidot kopējus mācību projektus, iegūt jaunus draugus un paplašināt savu redzējumu uz pasauli.</p>
             </div>
+            <img id="bild" src="img/4.jpeg" alt="" class="img-thumbnail img-circle" width="50%" height="50%" />
           </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4">
           <div class="pm-staff-profile-container">
             <div class="pm-staff-profile-details text-center">
-              <p class="pm-staff-profile-name">Program 3</p>
-              <p class="pm-staff-profile-bio">Erasmus + exchange program between Bauska State Gymanisum elementary, high school students and Martin Koch Gymanisum. Duration of the study exchange would be a minimum of 2 months  to 6 months, depending on the provided programs in both schools.  </p>
+              <p class="pm-staff-profile-name">Jirakovo ģimnāzija (Nāhoda, Čehija)</p>
+              <p class="pm-staff-profile-bio">Kopīgā vienošanās starp Bausku un Nāhodu (Čehija) tika noslēgta 2010.gada 23.jūlijā. Abi korporāciju lauki turpināja komunikāciju starp pašvaldībām, lai kopīgotu pieredzi un veicinātu kopīgus sporta, kultūras un sociālos pasākumus, kuri tiktu panākti virzot un atbalstot pieredzes apmaiņu vietējo skolēnu vidū. Lai uzlabotu izglītības līmeni šīs sadarbības ietvaros, projekts paredz Bauskas ģimnāzijas un Jirakovas ģimnāzijas dalību Erasmus+ apmaiņas programmās. Programmu ilgums būs no diviem līdz sešiem mēnešiem ilgs un skolēniem būs iespēja izpētīt dažādos mācību procesus, jaunas kultūras un vietas.  Ar Erasmus+ palīdzību, tiks ciešāk tuvināta Bauskas un Nāhodas pilsētu starp skolu sadraudzība, kā arī veicināta abu pilsētu iedzīvotāju attīstība.</p>
             </div>
+            <img id="bild" src="img/1.jpeg" alt="" class="img-thumbnail img-circle" width="50%" height="50%"/>
           </div>
-        </div>
-      </div>
-        <img src="img/programban.jpeg" alt="" class="img-thumbnail img-circle" />
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Ripinas Pilsētas skola (Ripina, Polija)</p>
+              <p class="pm-staff-profile-bio">Starp Bausku un Rypinu aizsākusies sadarbība jau 2007. gadā, kad Polijas pilsētas Rypinas delegācija apmeklēja Bauskas Pilsētas domi. Savstarpējā sadarbība veiksmīgi izvērtusies sporta, sociālās aprūpes, vides, tūrisma, kultūras un izglītības, tostarp apmaiņas programmu, jautājumos. Sadraudzība iesākusies gadu pēc tam - 2008. gadā, kas devusi Bauskas Valsts ģimnāzijas skolēniem un skolotājiem iespēju apmeklēt Rypinas Pilsētas skolu un apskatīt pašu pilsētu - tās muzejus un citus apskates objektus. Arī Rypinas skolēni un skolotāji apskatījuši ne tikai Bausku, bet arī izmantojuši brīnišķīgu iespēju – apskatīt arī citas Latvijas pilsētas. Plašākas izglītības iespējas devušas Erasmus+ sadarbības. Skolēni var ne tikai apskatīt jaunas pilsētas un izbaudīt citas kultūras, bet arī piedalīties un izvērtēt ārvalstu mācību metodes.</p>
+            </div>
+            <img id="bild" src="img/3.jpeg" alt="" class="img-thumbnail img-circle" width="50%" height="50%"/>
+          </div>
     </div>
   </section>
   <!--/ Faculity member-->
 
   <!--Apply-->
-  <section id="pricing" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="header-section text-center">
-          <h2>How To Apply</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
-          <hr class="bottom-line">
-        </div>
-
+        <section id="pricing" class="section-padding">
+          <div class="container">
+            <div class="row">
+                <div class="detail-info">
+                  <hgroup>
+                    <h3 class="det-txt">Kā pieteikties?</h3>
+                  </hgroup>
+                  <p class="det-p"><p>Pēc Erasmus+ vadlīnijām pieteikšanās process izglītības iestādēm un skolām norisinās Erasmus+ mājaslapā, reģistrējoties autentifikācijas sistēmā ‘’EU Login’’ un aizpildot paredzēto tiešsaistes pieteikuma veidlapu. Tā ir atrodama Erasmus+ mājaslapā, kur soli pa solim izskaidrota pamācība kā rīkoties ar veidlapu.</p>
+                  <br>
+                  <hr class="bottom-line">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
   <!--/ Apply-->
+
   <!--Contact-->
-  <section id="contact" class="section-padding">
+  <section id="member" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="header-section text-center">
-          <h2>Contact Us</h2>
-          <p>Let’s keep in touch! For any questions e-mail us – <br> bauskayouthdevelopment@gmail.com</p>
-          <hr class="bottom-line">
+          <h3>Uzdod mums jautājumus! </h3>
+            <hr class="bottom-line">
+          <h2>Mūsu kontakti:</h2>
         </div>
-
-
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="pm-staff-profile-container">
+            <img id="meitenes"  src="img/a.jpeg" alt="facebook" width="140px" height="140px">
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Elza Cera </p>
+              <p class="bio">Bauska Youth Development Program projekta vadītāja</p>
+              <p class="bio">Tālrunis: 26669618</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="pm-staff-profile-container">
+            <img id="meitenes" src="img/e.jpeg" alt="facebook" width="140px" height="140px">
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Anna Emīlija Bezdelīga</p>
+              <p class="bio">Bauska Youth Development Program projekta vadītāja</p>
+              <p class="bio">Tālrunis: 22827675</p>
+            </div>
+          </div>
+        </div>
       </div>
+          <p id="epasts">E-pasts: bauskayouthdevelopment@gmail.com</p>
+          <a href="https://www.facebook.com/BauskaYouth/"><img id="face" src="img/fac.png" alt="facebook" width="50px" height="50px"> </a>
+          <p id="pap" class="bio">Papildus informācija par Erasmus+ iespējām:</p>
+          <p class="bio">Vineta Straume<br>Erasmus+ programmas departamenta Stratēģisko partnerību nodaļas vecākā programmas speciāliste<br>E-pasts: vineta.straume@viaa.gov.lv <br>Tālrunis: 67559501</p>
     </div>
   </section>
   <!--/ Contact-->
   <!--Footer-->
   <footer id="footer" class="footer">
     <div class="container text-center">
-      ©2016 ELZA & CO
+      ©2019 ELZA & CO
     </div>
   </footer>
   <!--/ Footer-->

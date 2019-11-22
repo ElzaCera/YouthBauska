@@ -7,6 +7,7 @@ body {
     font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+		text-align: justify;
 }
 ol, ul {
 	list-style: none;
@@ -267,6 +268,14 @@ h2{
 .heading p {
   text-align: left;
 }
+#bx{
+	text-align: justify;
+}
+#bild{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 /***********************************
  Organisations
 ************************************/
@@ -321,6 +330,13 @@ Mentor Team
   text-transform: capitalize;
   color: #4b4b4b;
   font-weight: 100;
+	text-align: justify;
+}
+.bio{
+	text-transform: capitalize;
+  color: #4b4b4b;
+  font-weight: 100;
+	text-align: center;
 }
 /***********************************
 Testimonial
@@ -338,6 +354,9 @@ Testimonial
 .text-par{
   font-size: 20px;
   padding-bottom: 15px;
+}
+#linijazem{
+	
 }
 /***********************************
 Course
@@ -455,6 +474,29 @@ Contact Us
 #sendmessage.show, #errormessage.show, .show {
 	display:block;
 }
+#pap{
+	padding-top: 50px;
+}
+/**********************************
+contacts2
+***********************************/
+#meitenes{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#epasts{
+	text-align: center;
+	font-weight: bold;
+	color: #4267B2;
+	padding-top: 50px;
+}
+#face{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /***********************************
 Footer
 ************************************/
@@ -582,107 +624,4 @@ Footer
 }
 .footer .form-control:focus{
     box-shadow: none;
-}
-/***********************************
-************************************
-Responsive media queries
-************************************
-***********************************/
-@media (min-width: 769px) and (max-width: 980px) {
-    .ser-text {
-    font-size: 20px;
-    }
-    .service-box, .feature-info, .orga-stru{
-        margin-bottom: 30px;
-    }
-    .pricing-head .amount {
-    font-size: 51px;
-    }
-    .price-table .pricing-head h4 {
-    font-size: 18px;
-    }
-}
-@media (min-width: 451px) and (max-width: 768px) {
-    .ser-text {
-    font-size: 20px;
-    }
-    .service-box, .feature-info{
-        margin-bottom: 30px;
-    }
-
-    .pricing-head .amount {
-    font-size: 51px;
-    }
-    .price-table .pricing-head h4 {
-    font-size: 18px;
-    }
-}
-@media (min-width: 20px) and (max-width: 450px) {
-    .text-dec {
-    font-size: 20px;
-    }
-    .big-text {
-    font-size: 30px;
-    }
-    .small-text {
-    font-size: 14px;
-    }
-    .intro-para {
-    font-size: 30px;
-    }
-    .header-section p{
-        font-size: 14px;
-    }
-    .heading {
-    margin-bottom: 20px;
-    }
-    .orga-stru i {
-    font-size: 92px;
-    }
-    .orga-stru {
-    padding: 5px 5px 15px 5px;
-    width: 75px;
-    margin-bottom: 20px;
-    }
-    .orga-stru h3 {
-    font-size: 28px;
-    }
-    .orga-stru p {
-    font-size: 13px;
-    }
-    h3.det-txt {
-    font-size: 28px;
-    }
-    .cta-2-txt {
-    font-size: 20px;
-    }
-    .service-box, .text-comment, .price-table{
-        margin-bottom: 30px;
-    }
-    .contact-form-button{
-        width: 40%;
-    }
-    .footer .social-links li {
-    margin: 0 5px 25px;
-    }
-    .cta-2-form-submit-btn {
-    font-size: 10px;
-    }
-    .cta-2-form input[type="email"] {
-    padding: 13px 10px;
-    font-size: 10px;
-    min-width: 187px;
-    }
-    .modal-sm {
-    width: 300px;
-    }
-    .login-box-body {
-    padding: 15px 20px;
-    }
-    .navbar-default .navbar-brand{
-        margin-left: 10px;
-    }
-    .navbar-default .navbar-nav > li > a{
-        text-align: center;
-    }
 }
